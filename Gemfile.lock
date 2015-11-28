@@ -1,5 +1,6 @@
-PATH
-  remote: /Users/davec/Projects/StitchFix/tech_radar
+GIT
+  remote: git@github.com:stitchfix/tech_radar.git
+  revision: d9316155f5fc3ea4c246fc1b57a283faba90e3f5
   specs:
     tech_radar (0.0.1)
       i18n
