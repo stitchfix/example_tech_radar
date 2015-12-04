@@ -1,0 +1,5 @@
+{
+  "name": "Example Tech Radar",
+  "description": "A basic Rails app that includes the tech_radar engine to show how you might make a site for your team that has a Tech Radar in it",
+  "repository": "https://github.com/stitchfix/example_tech_radar"
+}

@@ -10,5 +10,5 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-gem 'tech_radar', git: "git@github.com:stitchfix/tech_radar.git"
+gem 'tech_radar'
 
