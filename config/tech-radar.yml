@@ -6,142 +6,45 @@
     Resque:
       purpose: "Background Jobs"
       more_details_url: https://github.com/resque/resque/tree/1-x-stable
-    RabbitMQ:
-      purpose: "Messaging"
-    stitches:
-      purpose: "REST API"
-      more_details_url: https://github.com/stitchfix/stitches
-      why_summary: "Used by default by app generation for all existing services."
-      why_url: http://multithreaded.stitchfix.com/blog/2015/11/04/simple-rails-apis-with-stitches/
-    api_client:
-      purpose: "REST Clients"
-      more_details_url: https://github.com/stitchfix/api_client
-    Librato:
-      purpose: "Metrics"
-    Bugsnag:
-      purpose: "Runtime Error Capture"
-    Papertrail:
-      purpose: "Logging"
-      more_details_url: http://papertrailapp.com
-    NewRelic:
-      purpose: "Performance Analysis"
-    Google Docs:
-      purpose: "Document Sharing"
-    BlueJeans:
-      purpose: "Video Chat"
-      more_details_url: http://bluejeans.com
-    HipChat:
-      purpose: "Text Chat"
-      more_details_url: http://hipchat.com
-    UserVoice:
-      purpose: "User feedback and support issue tracking"
-      more_details_url: http://uservoice.com
-    AlamoFire:
-      purpose: "iOS HTTP requests"
-      more_details_url: https://github.com/Alamofire/Alamofire
-    PromiseKit:
-      purpose: "Promise Pattern in Swift"
-      more_details_url: http://promisekit.org/
-    Fabric:
-      purpose: "iOS build distribution"
-      more_details_url: https://get.fabric.io/ios
   "Trial":
     ElasticSearch:
       purpose: "Indexed Search"
       more_details_url:
-      why_summary: "Erch and CXE using"
-    HumbleKit:
-      purpose: "CSS Framework"
-      more_details_url: http://humblekit.com
-      why_summary: "Used in many apps, not consistently"
+      why_summary: "Used by platform team with great success."
     Bootstrap:
       purpose: "CSS Framework"
       more_details_url: http://getbootstrap.com
-      why_summary: "Used in several apps, sometimes w/ HumbleKit. Kingmob notable heavy user w/out HumbleKit"
+      why_summary: "Used in several apps"
     ERB:
       purpose: "Front-end templates"
       more_details_url: http://guides.rubyonrails.org/layouts_and_rendering.html
-      why_summary: "All apps save FashionThing and Receiving tools in Spectre"
-    "Docker for development & testing":
-      purpose: "Developer Environment"
-      more_details_url: http://www.docker.com
-      why_summary: "Kufak heavy users"
-    "GitHub repo of Markdown files as a wiki":
-      purpose: "Documentation"
-      more_details_url: https://github.com/stitchfix/eng-wiki/blob/master/README.md
-    Screenhero:
-      purpose: "Pairing/Code Review"
-      more_details_url: http://screenhero.com
+      why_summary: "The new accounting app isn't using ERB, but all the rest are."
     Lodash:
       purpose: "Javascript utility library"
       more_details_url:
-      why_summary: "Used by Styling, MOPS, and CX"
+      why_summary: "Used by all apps but the legacy image server."
   "Assess":
     Sidekiq:
       purpose: "Background Jobs"
       more_details_url:
-      why_summary: "Only Erch using"
-    "Redis as a database":
-      purpose: "Primary Data Store"
-      more_details_url: https://redis.io
-      why_summary: "Only client-service using"
-    HAML:
-      purpose: "Front-end templates"
-      more_details_url: http://haml.info
-      why_summary: "Only Erch and Receiving tools in Spectre using"
+      why_summary: "Only mobile is using."
     Pact:
       purpose: "HTTP Service Testing"
       more_details_url: https://github.com/realestate-com-au/pact
-      why_summary: "MOPS using for microservices testing"
-    waffle.io:
-      purpose: "Issue & Task Management"
-      more_details_url: http://waffle.io
-      why_summary: "Styling, CXE, Erch using, MOPS kinda using"
-    Asana:
-      purpose: "Issue & Task Management"
-      more_details_url: https://asana.com/
-      why_summary: "UX using"
-    "Pivotal Tracker":
-      purpose: "Issue & Task Management"
-      more_details_url: https://www.pivotaltracker.com/
-      why_summary: "Kufak Using"
+      why_summary: "Ops using for microservices testing"
     Confluence:
       purpose: "Documentation"
       more_details_url: https://www.atlassian.com/software/confluence/
-      why_summary: "UX using"
-    cookie_based_sso:
-      purpose: "SSO"
-      more_details_url: https://github.com/stitchfix/cookie_based_sso
-      why_summary: "MOPS using for new front-end app authentication"
-    Skylight:
-      purpose: "Performance Analysis"
-      more_details_url: https//skylight.io
-      why_summary: "Sporadic use"
+      why_summary: "UX are the only team using this."
     BassCSS:
       purpose: "CSS Framework"
-      why_summary: "Only used on Minx"
+      why_summary: "Only used on the admin app."
       more_details_url: http://www.basscss.com/
-    CocoaPods:
-      purpose: "iOS dependency/build management"
-      more_details_url: https://cocoapods.org/
-      why_summary: "We have had issues with build size and speed. Actively seeking alternatives"
-    Underscore.js:
-      purpose: "Javascript utility library"
-      more_details_url: http://underscorejs.org/
-      why_summary: "Only Erch using for Fashionthing"
   "Hold":
-    SwiftTask:
-      purpose: "Promise Pattern in Swift"
-      more_details_url: https://github.com/ReactKit/SwiftTask
-      why_summary: "We had trouble designing a system around this and switched to PromiseKit"
     JIRA:
       purpose: "Issue & Task Management"
       more_details_url: https://www.atlassian.com/software/jira/
       why_summary: "Abandoned for lighterweight solutions"
-    Airbrake:
-      purpose: "Runtime Error Capture"
-      more_details_url: https://airbrake.io
-      why_summary: "Abandoned for Bugsang; some apps still using"
     Google Hangouts:
       purpose: "Video Chat"
       more_details_url: https://hangouts.google.com/
@@ -154,12 +57,6 @@
     S3:
       purpose: "Remote file system"
       more_details_url: https://aws.amazon.com/s3/
-    Cloudfront:
-      purpose: "Rails asset hosting"
-      more_details_url: https://aws.amazon.com/cloudfront/
-    Cloudinary:
-      purpose: "Product image hosting"
-      more_details_url: http://cloudinary.com/
   "Trial":
     iOS:
       purpose: "Mobile Application Development"
@@ -169,65 +66,39 @@
     AWS:
       purpose: "Infrastructure"
       more_details_url: https://aws.amazon.com
-      why_summary: "VPN"
-    Cloudfront:
-      purpose: "Product image hosting"
-      more_details_url: https://aws.amazon.com/cloudfront/
-      xwhy_summary: "Minx using, backed  by Cloudinary"
+      why_summary: "Hosts the VPN"
   "Hold":
 "Techniques":
   "Adopt":
     "Weekly sync-ups with Business Partners":
       purpose: "Roadmap Planning"
-    "Roadmaps in single Spreadsheet":
-      purpose: "Cross-functional visibilityu"
     "Continuous Deployment":
       purpose: "Ship Code"
     "Pull Requests":
       purpose: "Code Review & Change Management"
       more_details_url: http://multithreaded.stitchfix.com/blog/2013/07/30/our-git-workflow/
-    "Automated Testing/CI":
-      purpose: "Quality Assurance"
-    "Service Objects over Bloated ActiveRecord models":
-      purpose: "Code maintenance"
-      more_details_url: http://multithreaded.stitchfix.com/blog/2015/06/02/anatomy-of-service-objects-in-rails/
-    "Asynchronous Messaging":
-      purpose: "Application Integration"
   "Trial":
     "HTTP Services":
       purpose: "Application Integration"
       why_summary: "Probably ready to adopt.  Some older code still using gems & messages-as-APIs"
     "Asynchronous API Design":
       purpose: "Scaling"
-      why_summary: "checkout, shippinglabels using heavily"
-    "AA Integration via JSON":
-      purpose: "Operationalize AA insights"
-      why_summary: "Styling and Kufak using"
-    "AA Integration via services":
-      purpose: "Operationalize AA insights"
-      why_summary: "Styling using, MOPS planning"
+      why_summary: "payments and shipping apps using heavily"
   "Assess":
     "Consumer-driven tests for services":
       purpose: "Ensure changes to services do not break upstream clients"
       more_details_url: http://martinfowler.com/articles/consumerDrivenContracts.html
-      why_summary: "MOPS experimenting (see Pact)"
+      why_summary: "Ops experimenting (see Pact)"
     "End-to-end integrated tests in CI":
       purpose: "Ensure changes to services do not break upstream clients"
-      why_summary: "Kufak using for microservices testing"
-    "Strictly enforced Database SLA":
-      purpose: "Scaling"
-      why_summary: "Limited roll out"
-    "New hire-driven onboarding via directed questions":
-      purpose: "Onboarding"
-      more_details_url: https://docs.google.com/document/d/1GNPSSLJswk3_cO0N7tG-s7DuJ5wjc_1H-0KFPA-s4ZQ/edit
-      why_summary: "Katherine on MOPS reported a positive exprience"
+      why_summary: "Mobile using for microservices testing"
   "Hold":
     "Shared Gems":
       purpose: "Application Integration"
       why_summary: "Difficult to manage, doesn't scale"
     "RabbitMQ for RPC":
       purpose: "Application Integration"
-      why_summary: "Increaes coupling in subtle ways, and is not fault-tolerant"
+      why_summary: "Increases coupling in subtle ways, and is not fault-tolerant"
     "Shared database":
       purpose: "Application Integration"
       why_summary: "Not scaling"
@@ -243,28 +114,20 @@
     CoffeeScript:
       purpose: Browser Programming
       more_details_url:
-      why_summary: "Most apps are using this, with Minx being a notable exception"
+      why_summary: "Most apps are using this, with Admin being a notable exception"
     JavaScript:
       purpose: Browser Programming
       more_details_url:
-      why_summary: "Minx' front-end uses JavaScript"
-    AngularJS:
-      purpose: Front-end Framework
-      more_details_url: https://angularjs.org/
-      why_summary: "Widely used for MOPS front-ends"
+      why_summary: "Admin front-end uses JavaScript"
     Swift:
       purpose: iOS Development
       more_details_url: https://developer.apple.com/swift/
       why_summary: "Likely Adopt, but only one use-case currently"
   "Assess":
-    JQuery:
-      purpose: "Front-end Framework"
-      more_details_url:
-      why_summary: "www, Kingmob use this for front-end"
     Go:
       more_details_url: https://golang.org/
       purpose: "Middleware Programming"
-      why_summary: "Eric G currently experimenting"
+      why_summary: "Currently experimenting"
   "Hold":
     "Objective-C":
       purpose: "iOS Development"
