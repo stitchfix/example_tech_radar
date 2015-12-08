@@ -9,7 +9,7 @@
   "Trial":
     ElasticSearch:
       purpose: "Indexed Search"
-      more_details_url:
+      more_details_summary: "ElasticSearch is a database designed for high performance searching of potentially complex data."
       why_summary: "Used by platform team with great success."
     Bootstrap:
       purpose: "CSS Framework"
@@ -31,6 +31,7 @@
     Pact:
       purpose: "HTTP Service Testing"
       more_details_url: https://github.com/realestate-com-au/pact
+      more_details_summary: "Pact is a system for implementing consumer-driven contracts, which allows us to get good test coverage of microservices without doing end-to-end integration tests.  It works by consuming code publishing JSON files to a shared repository that the consumed service can then execute against itself to ensure compatibility with the consumer."
       why_summary: "Ops using for microservices testing"
     Confluence:
       purpose: "Documentation"
@@ -72,6 +73,7 @@
   "Adopt":
     "Weekly sync-ups with Business Partners":
       purpose: "Roadmap Planning"
+      more_details_summary: "We meet each week with the business stakeholders to discuss strategy, priorities, and roadmaps"
     "Continuous Deployment":
       purpose: "Ship Code"
     "Pull Requests":
