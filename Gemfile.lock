@@ -114,7 +114,7 @@ GEM
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
-    tech_radar (0.0.1)
+    tech_radar (0.1.0)
       i18n
       immutable-struct
       rails (~> 4.2.5)
