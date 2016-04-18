@@ -30,6 +30,7 @@
       why_summary: "Only mobile is using."
     Pact:
       purpose: "HTTP Service Testing"
+      why_url: http://multithreaded.stitchfix.com/blog/2015/11/23/consumer-driven-contracts/
       more_details_url: https://github.com/realestate-com-au/pact
       more_details_summary: "Pact is a system for implementing consumer-driven contracts, which allows us to get good test coverage of microservices without doing end-to-end integration tests.  It works by consuming code publishing JSON files to a shared repository that the consumed service can then execute against itself to ensure compatibility with the consumer."
       why_summary: "Ops using for microservices testing"
@@ -73,7 +74,15 @@
   "Adopt":
     "Weekly sync-ups with Business Partners":
       purpose: "Roadmap Planning"
-      more_details_summary: "We meet each week with the business stakeholders to discuss strategy, priorities, and roadmaps"
+      more_details_summary: |+
+        As we have no formal product management (by design), each engineering team has a weekly meeting with their relevant _business partners_, who are the stakeholders for that part of the businsess.
+        For example, the MOPS team meets with the VP of Warehouse Operations and their reports.
+
+        The format of the meeting differs by team, but generally, it's a time to review the status of ongoing work, adjust the priority of anything, and discuss any issues of the day.
+        Teams typicaly employ a “Rolling Agenda” which is a shared Google Doc that anyone can edit.
+        Anyone can place an item on the Agenda, and it is up to them to lead the discussion and collect next-steps, if any.
+
+        Typically, the first meeting of the month will be a deeper-dive into the team's roadmap and to generally set priorities for the month.
     "Continuous Deployment":
       purpose: "Ship Code"
     "Pull Requests":
